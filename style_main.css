@@ -1,0 +1,38 @@
+body {
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    background-color: #bcf3ec;
+}
+
+.grid {
+    display: grid;
+    /* gap: 50px; */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin: auto;
+    text-align: center;
+}
+
+.grid h3 {
+    margin-bottom: 3px;
+}
+
+body h2 {
+    text-align: center;
+    background-color: #52fae4;
+    margin-top: 5%;
+    margin-bottom: 0px;
+}
+
+body h3 {
+    text-align: center;
+}
+
+footer {
+    background: white;
+    text-align: center;
+    padding: 26px 0;
+}
+
+footer p {
+    font: 1em;
+    color: black;
+}
